@@ -23,6 +23,11 @@ class MyTestCase(unittest.TestCase):
             r_name = gen.random_name()
             pass
 
+    def test_two(self):
+        import RandomNames
+        n = RandomNames.random_name()
+        pass
+
 
 
 if __name__ == '__main__':
